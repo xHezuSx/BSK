@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep Internetowy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .product-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+        .product-description {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+        .product-price {
+            font-size: 16px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sklep Internetowy - Produkty</h1>
+    </header>
+
+    <div class="container">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 1" class="product-image">
+            <div class="product-title">Smartfon XYZ</div>
+            <div class="product-description">Nowoczesny smartfon z dużym wyświetlaczem i wydajnym procesorem.</div>
+            <div class="product-price">Cena: 1999 PLN</div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 2" class="product-image">
+            <div class="product-title">Laptop Pro 15</div>
+            <div class="product-description">Wydajny laptop do pracy i rozrywki z ekranem 15 cali.</div>
+            <div class="product-price">Cena: 3299 PLN</div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 3" class="product-image">
+            <div class="product-title">Słuchawki Bezprzewodowe</div>
+            <div class="product-description">Wysokiej jakości słuchawki z redukcją szumów.</div>
+            <div class="product-price">Cena: 299 PLN</div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 4" class="product-image">
+            <div class="product-title">Zegarek Sportowy</div>
+            <div class="product-description">Wodoodporny zegarek z funkcją monitorowania aktywności fizycznej.</div>
+            <div class="product-price">Cena: 399 PLN</div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 5" class="product-image">
+            <div class="product-title">Tablet 10.5”</div>
+            <div class="product-description">Lekki i wydajny tablet do pracy i zabawy.</div>
+            <div class="product-price">Cena: 1499 PLN</div>
+        </div>
+
+        <!-- Dodaj kolejne produkty w podobnym formacie -->
+        
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 6" class="product-image">
+            <div class="product-title">Kamera 4K</div>
+            <div class="product-description">Nagrywaj w wysokiej rozdzielczości 4K, idealna na wyjazdy.</div>
+            <div class="product-price">Cena: 1199 PLN</div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 7" class="product-image">
+            <div class="product-title">Głośnik Bluetooth</div>
+            <div class="product-description">Przenośny głośnik z dźwiękiem wysokiej jakości.</div>
+            <div class="product-price">Cena: 199 PLN</div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 8" class="product-image">
+            <div class="product-title">Mysz Gamingowa</div>
+            <div class="product-description">Precyzyjna mysz dla graczy z podświetleniem RGB.</div>
+            <div class="product-price">Cena: 149 PLN</div>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 9" class="product-image">
+            <div class="product-title">Klawiatura Mechaniczna</div>
+            <div class="product-description">Ergonomiczna klawiatura mechaniczna z szybkim czasem reakcji.</div>
+            <div class="product-price">Cena: 399 PLN</div>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 10" class="product-image">
+            <div class="product-title">Monitor 27” 144Hz</div>
+            <div class="product-description">Monitor o wysokiej częstotliwości odświeżania idealny do gier.</div>
+            <div class="product-price">Cena: 1299 PLN</div>
+        </div>
+
+        <!-- Product 11 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 11" class="product-image">
+            <div class="product-title">Krzesło Gamingowe</div>
+            <div class="product-description">Wygodne krzesło gamingowe z regulacją oparcia.</div>
+            <div class="product-price">Cena: 799 PLN</div>
+        </div>
+
+        <!-- Product 12 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Produkt 12" class="product-image">
+            <div class="product-title">Drukarka Laserowa</div>
+            <div class="product-description">Szybka drukarka laserowa z funkcją skanowania.</div>
+            <div class="product-price">Cena: 499 PLN</div>
+        </div>
+
+        <!-- Dodaj pozostałe produkty -->
+
+    </div>
+
+    <footer>
+        &copy; 2024 Sklep Internetowy
+    </footer>
+
+</body>
+</html>
