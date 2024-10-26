@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-url = "http://192.168.1.27/BSK/strona.html"
+url = "http://192.168.33.21/"
 
 response = requests.get(url).content
 soup = BeautifulSoup(response, 'html.parser')
