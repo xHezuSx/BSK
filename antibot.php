@@ -1,6 +1,19 @@
 <?php
 echo "TU DZIAŁA PHP";
 session_start();
+$ip = $_SERVER['REMOTE_ADDR'];
+$time = date('Y-m-d H:i:s');
+$method = $_SERVER['REQUEST_METHOD'];
+$url = $_SERVER['REQUEST_URI'];
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+
+$logData = "$time | $ip | $method | $url | $userAgent\n";
+
+
+$logFile = 'logs.txt';
+$file = fopen($logFile, 'a');
+fwrite($file, $logData);
+fclose($file);
 
 $timeFrame = 1; 
 $requestLimit = 5; 
