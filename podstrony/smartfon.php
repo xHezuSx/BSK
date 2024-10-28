@@ -1,9 +1,12 @@
+<?php
+    include 'antibot.php'
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fotel - Jakub & Jakub shop</title>
+    <title>Sklep Internetowy - Produkt</title>
     <link rel="icon" href="../assets/icon.jpg" type="image/jpg">
     <style>
         body {
@@ -90,27 +93,26 @@
     </header>
 
     <div class="product-page">
-        <img src="../assets/fotele.jpg" alt="Smartfon" class="product-image">
+        <img src="../assets/Smartfon-SAMSUNG-Galaxy-A35-5G-Czarny-front.jpg" alt="Smartfon" class="product-image">
         <div class="product-details">
-            <h2 class="product-title">Krzesło gamingowe Diablo CHAIRS X-Horn</h2>
-            <p class="product-description">Dla miłośników komfortu i stylu: Diablo X-Horn to nie tylko fotel, to tron dla graczy. Został zaprojektowany z myślą o długich sesjach przed komputerem, zapewniając maksymalny komfort dzięki ergonomicznej konstrukcji i wysokiej jakości materiałów.
-                Dla osób szukających wytrzymałego sprzętu: X-Horn to prawdziwa bestia, gotowa na intensywne użytkowanie. Solidna rama i trwałe materiały gwarantują, że posłuży przez wiele lat.
-                Dla tych, którzy cenią sobie indywidualizm: Dzięki szerokiej gamie kolorów i materiałów, możesz spersonalizować swoje krzesło i stworzyć unikalną przestrzeń do grania.</p>
+            <h2 class="product-title">Smartfon SAMSUNG Galaxy A35 5G</h2>
+            <p class="product-description">Nowoczesny smartfon z dużym wyświetlaczem i wydajnym procesorem. Idealny do pracy, zabawy oraz korzystania z internetu w superszybkiej sieci 5G.</p>
             <p class="product-price">Cena: 1999 PLN</p>
         </div>
         <div class="product-actions">
             <a href="#">Dodaj do koszyka</a>
-            <a href="index.html">Powrót do sklepu</a>
+            <a href="../strona.php">Powrót do sklepu</a>
         </div>
         <ul>
-            <li><strong>Ergonomia:</strong> Dopasowany kształt zapewniający komfort podczas długich sesji gamingowych.</li>
-            <li><strong>Tapicerka:</strong> Wysokiej jakości materiały zapewniające trwałość i łatwe czyszczenie.</li>
-            <li><strong>Regulacja:</strong> Możliwość regulacji wysokości, kąta nachylenia oparcia i podłokietników.</li>
-            <li><strong>Poduszka lędźwiowa:</strong> Dodatkowe wsparcie dla kręgosłupa.</li>
-            <li><strong>Poduszka pod głowę:</strong> Zapewnia komfort podczas długich sesji.</li>
-            <li><strong>Podstawa:</strong> Solidna podstawa zapewniająca stabilność.</li>
-            <li><strong>Design:</strong> Stylowy design pasujący do każdego gamingowego setupu.</li>
-            <li><strong>Dodatkowe funkcje:</strong> (np. podświetlenie LED, funkcja bujania).</li>
+            <li><strong>Procesor:</strong> Exynos 1380</li>
+            <li><strong>Ekran:</strong> Super AMOLED 6.6"</li>
+            <li><strong>Pamięć RAM:</strong> 6/8 GB</li>
+            <li><strong>Pamięć wewnętrzna:</strong> 128/256 GB</li>
+            <li><strong>Aparat główny:</strong> 50 MP + 8 MP + 5 MP</li>
+            <li><strong>Aparat przedni:</strong> 13 MP</li>
+            <li><strong>Bateria:</strong> 5000 mAh</li>
+            <li><strong>System operacyjny:</strong> Android 13</li>
+            <li><strong>Łączność:</strong> 5G, Wi-Fi, Bluetooth</li>
         </ul>
     </div>
 

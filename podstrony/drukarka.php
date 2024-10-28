@@ -1,9 +1,12 @@
+<?php
+    include 'antibot.php'
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Głośnik - Jakub & Jakub shop</title>
+    <title>Drukarka - Jakub & Jakub shop</title>
     <link rel="icon" href="../assets/icon.jpg" type="image/jpg">
     <style>
         body {
@@ -90,25 +93,27 @@
     </header>
 
     <div class="product-page">
-        <img src="../assets/glosniki.jpg" class="product-image">
+        <img src="../assets/drukara.jpg" alt="Smartfon" class="product-image">
         <div class="product-details">
-            <h2 class="product-title">JBL Xtreme 3</h2>
-            <p class="product-description">Dla miłośników głośnej muzyki: JBL Xtreme 3 to potężny, przenośny głośnik, który wypełni dźwiękiem każde pomieszczenie. Dzięki czterem przetwornikom i dwóm radiatorom basowym, dostarcza głębokich basów i czystych wysokich tonów, zapewniając niezapomniane wrażenia słuchowe.
-                Dla osób aktywnych: Xtreme 3 to idealny towarzysz przygód. Jest wodoodporny i pyłoszczelny, dzięki czemu możesz zabrać go ze sobą na plażę, basen lub na imprezę w plenerze. Wytrzymała bateria zapewnia do 15 godzin odtwarzania muzyki bez przerwy.
-                Dla fanów imprez: Jeśli lubisz organizować imprezy, JBL Xtreme 3 jest dla Ciebie. Możesz połączyć ze sobą kilka głośników Xtreme 3, aby uzyskać jeszcze głośniejszy i bardziej przestrzenny dźwięk.</p>
+            <h2 class="product-title">Drukarka laserowa Brother DCP-J315W</h2>
+            <p class="product-description">Dla osób szukających praktycznego rozwiązania: Brother DCP-J315W to wielofunkcyjne urządzenie, które łączy w sobie funkcje drukarki, skanera i kopiaarki. Jest idealne do domowego biura lub dla studentów, którzy potrzebują niezawodnego urządzenia do codziennych zadań.
+                Dla osób ceniących sobie wygodę: Dzięki łączności Wi-Fi, Brother DCP-J315W pozwala na drukowanie bezpośrednio z urządzeń mobilnych. Nie musisz już podłączać urządzenia kablem, co znacznie ułatwia pracę.
+                Dla osób z ograniczonym budżetem: Brother DCP-J315W to przystępna cenowo opcja dla osób, które szukają funkcjonalnej drukarki bez konieczności wydawania dużych sum pieniędzy.</p>
             <p class="product-price">Cena: 1999 PLN</p>
         </div>
         <div class="product-actions">
             <a href="#">Dodaj do koszyka</a>
-            <a href="index.html">Powrót do sklepu</a>
+            <a href="../strona.php">Powrót do sklepu</a>
         </div>
         <ul>
-            <li><strong>Dźwięk:</strong> Potężny dźwięk w kompaktowej obudowie.</li>
-            <li><strong>Wodoszczelność:</strong> IPX7 - odporność na zachlapania i zanurzenie w wodzie.</li>
-            <li><strong>Bateria:</strong> Do 10 godzin odtwarzania muzyki na jednym ładowaniu.</li>
-            <li><strong>Połączenie:</strong> Bezprzewodowe połączenie Bluetooth dla łatwego strumieniowania muzyki.</li>
-            <li><strong>Wytrzymałość:</strong> Solidna konstrukcja i wbudowany karabińczyk umożliwiają przenoszenie w dowolne miejsce.</li>
-            <li><strong>Głośnomówiący:</strong> Odbieranie połączeń telefonicznych bezpośrednio z głośnika.</li>
+            <li><strong>Technologia druku:</strong> Laserowa, gwarantująca wysoką jakość i trwałość wydruków.</li>
+            <li><strong>Szybkość druku:</strong> 10 stron na minutę, co zapewnia wysoką wydajność.</li>
+            <li><strong>Rozdzielczość druku:</strong> 1000 dpi, zapewniając wyraźny tekst i szczegółowe grafiki.</li>
+            <li><strong>Połączenia:</strong> USB, Wi-Fi, Ethernet (w zależności od modelu), umożliwiające łatwe podłączenie do różnych urządzeń.</li>
+            <li><strong>Pojemność podajnika:</strong> 1000 arkuszy, co pozwala na wydrukowanie większej ilości dokumentów bez konieczności częstego uzupełniania papieru.</li>
+            <li><strong>Funkcje dodatkowe:</strong> Druk dwustronny, skanowanie, kopiowanie (w przypadku urządzeń wielofunkcyjnych).</li>
+            <li><strong>Ekonomiczność:</strong> Niski koszt wydruku dzięki wydajny tonerom.</li>
+            <li><strong>Kompatybilność:</strong> Szeroka kompatybilność z systemami operacyjnymi Windows, macOS i Linux.</li>
         </ul>
     </div>
 

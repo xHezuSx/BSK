@@ -1,9 +1,12 @@
+<?php
+    include 'antibot.php'
+?>  
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drukarka - Jakub & Jakub shop</title>
+    <title>Laptop - Jakub & Jakub shop</title>
     <link rel="icon" href="../assets/icon.jpg" type="image/jpg">
     <style>
         body {
@@ -90,27 +93,28 @@
     </header>
 
     <div class="product-page">
-        <img src="../assets/drukara.jpg" alt="Smartfon" class="product-image">
+        <img src="../assets/laptop-do-4000-zlotych-microsoft-surface-laptop-go-3.jpg" alt="Smartfon" class="product-image">
         <div class="product-details">
-            <h2 class="product-title">Drukarka laserowa Brother DCP-J315W</h2>
-            <p class="product-description">Dla osób szukających praktycznego rozwiązania: Brother DCP-J315W to wielofunkcyjne urządzenie, które łączy w sobie funkcje drukarki, skanera i kopiaarki. Jest idealne do domowego biura lub dla studentów, którzy potrzebują niezawodnego urządzenia do codziennych zadań.
-                Dla osób ceniących sobie wygodę: Dzięki łączności Wi-Fi, Brother DCP-J315W pozwala na drukowanie bezpośrednio z urządzeń mobilnych. Nie musisz już podłączać urządzenia kablem, co znacznie ułatwia pracę.
-                Dla osób z ograniczonym budżetem: Brother DCP-J315W to przystępna cenowo opcja dla osób, które szukają funkcjonalnej drukarki bez konieczności wydawania dużych sum pieniędzy.</p>
+            <h2 class="product-title">Laptop 15 Pro</h2>
+            <p class="product-description">Laptop 15 Pro to wszechstronny laptop, idealny zarówno do pracy, jak i rozrywki. Wyposażony w [procesor], [karta graficzna] i [pamięć RAM], zapewnia płynną pracę nawet przy wielu otwartych aplikacjach. Matryca [rozdzielczość] gwarantuje żywe kolory i ostry obraz, a [pojemność dysku] zapewnia wystarczająco dużo miejsca na wszystkie Twoje pliki. Lekka konstrukcja i długi czas pracy na baterii sprawiają, że możesz zabrać go wszędzie ze sobą.</p>
             <p class="product-price">Cena: 1999 PLN</p>
         </div>
         <div class="product-actions">
             <a href="#">Dodaj do koszyka</a>
-            <a href="index.html">Powrót do sklepu</a>
+            <a href="../strona.php">Powrót do sklepu</a>
         </div>
         <ul>
-            <li><strong>Technologia druku:</strong> Laserowa, gwarantująca wysoką jakość i trwałość wydruków.</li>
-            <li><strong>Szybkość druku:</strong> 10 stron na minutę, co zapewnia wysoką wydajność.</li>
-            <li><strong>Rozdzielczość druku:</strong> 1000 dpi, zapewniając wyraźny tekst i szczegółowe grafiki.</li>
-            <li><strong>Połączenia:</strong> USB, Wi-Fi, Ethernet (w zależności od modelu), umożliwiające łatwe podłączenie do różnych urządzeń.</li>
-            <li><strong>Pojemność podajnika:</strong> 1000 arkuszy, co pozwala na wydrukowanie większej ilości dokumentów bez konieczności częstego uzupełniania papieru.</li>
-            <li><strong>Funkcje dodatkowe:</strong> Druk dwustronny, skanowanie, kopiowanie (w przypadku urządzeń wielofunkcyjnych).</li>
-            <li><strong>Ekonomiczność:</strong> Niski koszt wydruku dzięki wydajny tonerom.</li>
-            <li><strong>Kompatybilność:</strong> Szeroka kompatybilność z systemami operacyjnymi Windows, macOS i Linux.</li>
+            <li><strong>Procesor:</strong> Intel Core i7 12700H</li>
+            <li><strong>Karta graficzna:</strong> NVIDIA GeForce RTX 3060</li>
+            <li><strong>Ekran:</strong> 15.6", QHD (2560x1440), 165 Hz, IPS</li>
+            <li><strong>Pamięć RAM:</strong> 16 GB DDR5</li>
+            <li><strong>Pamięć masowa:</strong> 1 TB SSD NVMe PCIe Gen4</li>
+            <li><strong>System operacyjny:</strong> Windows 11 Pro</li>
+            <li><strong>Bateria:</strong> 90 Wh</li>
+            <li><strong>Porty:</strong> Thunderbolt 4 (x2), USB-A 3.2 Gen 2 (x2), HDMI 2.1, jack 3.5 mm, czytnik kart SD</li>
+            <li><strong>Połączenia bezprzewodowe:</strong> Wi-Fi 6E, Bluetooth 5.2</li>
+            <li><strong>Wymiary:</strong> 355 x 250 x 18 mm</li>
+            <li><strong>Waga:</strong> 2 kg</li>
         </ul>
     </div>
 

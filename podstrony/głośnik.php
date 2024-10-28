@@ -1,9 +1,12 @@
+<?php
+    include 'antibot.php'
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monitor - Jakub & Jakub shop</title>
+    <title>Głośnik - Jakub & Jakub shop</title>
     <link rel="icon" href="../assets/icon.jpg" type="image/jpg">
     <style>
         body {
@@ -90,26 +93,25 @@
     </header>
 
     <div class="product-page">
-        <img src="../assets/monito.jpg" alt="Smartfon" class="product-image">
+        <img src="../assets/glosniki.jpg" class="product-image">
         <div class="product-details">
-            <h2 class="product-title">Monitor Acer 27" 144Hz</h2>
-            <p class="product-description">Opis monitora Acer 27" 144Hz
-                Acer 27" 144Hz to doskonały wybór zarówno dla graczy, jak i osób pracujących przy komputerze, które cenią sobie płynność obrazu i wysoką jakość wyświetlanych treści. Dzięki częstotliwości odświeżania 144 Hz, obraz jest niezwykle płynny, co przekłada się na lepsze wrażenia podczas grania i edycji wideo. Matryca o przekątnej 27 cali zapewnia odpowiednio duży obszar roboczy, a wysoka rozdzielczość gwarantuje ostry i szczegółowy obraz. Ten monitor to połączenie wydajności i estetyki, idealny dla osób poszukujących wysokiej jakości sprzętu do codziennego użytkowania.</p>
+            <h2 class="product-title">JBL Xtreme 3</h2>
+            <p class="product-description">Dla miłośników głośnej muzyki: JBL Xtreme 3 to potężny, przenośny głośnik, który wypełni dźwiękiem każde pomieszczenie. Dzięki czterem przetwornikom i dwóm radiatorom basowym, dostarcza głębokich basów i czystych wysokich tonów, zapewniając niezapomniane wrażenia słuchowe.
+                Dla osób aktywnych: Xtreme 3 to idealny towarzysz przygód. Jest wodoodporny i pyłoszczelny, dzięki czemu możesz zabrać go ze sobą na plażę, basen lub na imprezę w plenerze. Wytrzymała bateria zapewnia do 15 godzin odtwarzania muzyki bez przerwy.
+                Dla fanów imprez: Jeśli lubisz organizować imprezy, JBL Xtreme 3 jest dla Ciebie. Możesz połączyć ze sobą kilka głośników Xtreme 3, aby uzyskać jeszcze głośniejszy i bardziej przestrzenny dźwięk.</p>
             <p class="product-price">Cena: 1999 PLN</p>
         </div>
         <div class="product-actions">
             <a href="#">Dodaj do koszyka</a>
-            <a href="index.html">Powrót do sklepu</a>
+            <a href="../strona.php">Powrót do sklepu</a>
         </div>
         <ul>
-            <li><strong>Rozdzielczość:</strong> QHD (2560x1440) dla szczegółowego obrazu.</li>
-            <li><strong>Odświeżanie:</strong> 144 Hz zapewnia płynność obrazu, idealną do gier.</li>
-            <li><strong>Czas reakcji:</strong> Niskie opóźnienia dla minimalnego smużenia.</li>
-            <li><strong>Panel:</strong> IPS oferuje szerokie kąty widzenia i żywe kolory.</li>
-            <li><strong>Technologia:</strong> AMD FreeSync lub NVIDIA G-SYNC (w zależności od modelu) dla płynnej rozgrywki.</li>
-            <li><strong>Ergonomia:</strong> Regulowana wysokość, nachylenie i obrót dla optymalnego komfortu.</li>
-            <li><strong>Podłączenia:</strong> HDMI, DisplayPort, USB.</li>
-            <li><strong>Dodatkowe funkcje:</strong> Tryby obrazu, głośniki wbudowane (opcjonalnie).</li>
+            <li><strong>Dźwięk:</strong> Potężny dźwięk w kompaktowej obudowie.</li>
+            <li><strong>Wodoszczelność:</strong> IPX7 - odporność na zachlapania i zanurzenie w wodzie.</li>
+            <li><strong>Bateria:</strong> Do 10 godzin odtwarzania muzyki na jednym ładowaniu.</li>
+            <li><strong>Połączenie:</strong> Bezprzewodowe połączenie Bluetooth dla łatwego strumieniowania muzyki.</li>
+            <li><strong>Wytrzymałość:</strong> Solidna konstrukcja i wbudowany karabińczyk umożliwiają przenoszenie w dowolne miejsce.</li>
+            <li><strong>Głośnomówiący:</strong> Odbieranie połączeń telefonicznych bezpośrednio z głośnika.</li>
         </ul>
     </div>
 

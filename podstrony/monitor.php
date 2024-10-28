@@ -1,9 +1,12 @@
+<?php
+    include 'antibot.php'
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sklep Internetowy - Produkt</title>
+    <title>Monitor - Jakub & Jakub shop</title>
     <link rel="icon" href="../assets/icon.jpg" type="image/jpg">
     <style>
         body {
@@ -90,26 +93,26 @@
     </header>
 
     <div class="product-page">
-        <img src="../assets/Smartfon-SAMSUNG-Galaxy-A35-5G-Czarny-front.jpg" alt="Smartfon" class="product-image">
+        <img src="../assets/monito.jpg" alt="Smartfon" class="product-image">
         <div class="product-details">
-            <h2 class="product-title">Smartfon SAMSUNG Galaxy A35 5G</h2>
-            <p class="product-description">Nowoczesny smartfon z dużym wyświetlaczem i wydajnym procesorem. Idealny do pracy, zabawy oraz korzystania z internetu w superszybkiej sieci 5G.</p>
+            <h2 class="product-title">Monitor Acer 27" 144Hz</h2>
+            <p class="product-description">Opis monitora Acer 27" 144Hz
+                Acer 27" 144Hz to doskonały wybór zarówno dla graczy, jak i osób pracujących przy komputerze, które cenią sobie płynność obrazu i wysoką jakość wyświetlanych treści. Dzięki częstotliwości odświeżania 144 Hz, obraz jest niezwykle płynny, co przekłada się na lepsze wrażenia podczas grania i edycji wideo. Matryca o przekątnej 27 cali zapewnia odpowiednio duży obszar roboczy, a wysoka rozdzielczość gwarantuje ostry i szczegółowy obraz. Ten monitor to połączenie wydajności i estetyki, idealny dla osób poszukujących wysokiej jakości sprzętu do codziennego użytkowania.</p>
             <p class="product-price">Cena: 1999 PLN</p>
         </div>
         <div class="product-actions">
             <a href="#">Dodaj do koszyka</a>
-            <a href="index.html">Powrót do sklepu</a>
+            <a href="../strona.php">Powrót do sklepu</a>
         </div>
         <ul>
-            <li><strong>Procesor:</strong> Exynos 1380</li>
-            <li><strong>Ekran:</strong> Super AMOLED 6.6"</li>
-            <li><strong>Pamięć RAM:</strong> 6/8 GB</li>
-            <li><strong>Pamięć wewnętrzna:</strong> 128/256 GB</li>
-            <li><strong>Aparat główny:</strong> 50 MP + 8 MP + 5 MP</li>
-            <li><strong>Aparat przedni:</strong> 13 MP</li>
-            <li><strong>Bateria:</strong> 5000 mAh</li>
-            <li><strong>System operacyjny:</strong> Android 13</li>
-            <li><strong>Łączność:</strong> 5G, Wi-Fi, Bluetooth</li>
+            <li><strong>Rozdzielczość:</strong> QHD (2560x1440) dla szczegółowego obrazu.</li>
+            <li><strong>Odświeżanie:</strong> 144 Hz zapewnia płynność obrazu, idealną do gier.</li>
+            <li><strong>Czas reakcji:</strong> Niskie opóźnienia dla minimalnego smużenia.</li>
+            <li><strong>Panel:</strong> IPS oferuje szerokie kąty widzenia i żywe kolory.</li>
+            <li><strong>Technologia:</strong> AMD FreeSync lub NVIDIA G-SYNC (w zależności od modelu) dla płynnej rozgrywki.</li>
+            <li><strong>Ergonomia:</strong> Regulowana wysokość, nachylenie i obrót dla optymalnego komfortu.</li>
+            <li><strong>Podłączenia:</strong> HDMI, DisplayPort, USB.</li>
+            <li><strong>Dodatkowe funkcje:</strong> Tryby obrazu, głośniki wbudowane (opcjonalnie).</li>
         </ul>
     </div>
 

@@ -1,4 +1,5 @@
 <?php
+echo "TU DZIAŁA PHP";
 session_start();
 
 $timeFrame = 1; 

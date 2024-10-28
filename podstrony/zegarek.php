@@ -1,9 +1,12 @@
+<?php
+    include 'antibot.php'
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kamera - Jakub & Jakub shop</title>
+    <title>Zegarek - Jakub & Jakub shop</title>
     <link rel="icon" href="../assets/icon.jpg" type="image/jpg">
     <style>
         body {
@@ -90,27 +93,27 @@
     </header>
 
     <div class="product-page">
-        <img src="../assets/x1.jpg" alt="Smartfon" class="product-image">
+        <img src="../assets/images.jpg" alt="Smartfon" class="product-image">
         <div class="product-details">
-            <h2 class="product-title">Kamera cyfrowa Panasonic HC-VX1</h2>
-            <p class="product-description">Dla miłośników filmowania: Panasonic HC-VX1 to wszechstronna kamera, która pozwala uchwycić każdy moment w najwyższej jakości 4K. Dzięki zaawansowanym funkcjom, takim jak stabilizacja obrazu czy tryb slow motion, stworzysz profesjonalnie wyglądające filmy.
-                Dla osób szukających łatwej w obsłudze kamery: HC-VX1 to kamera, która łączy zaawansowane funkcje z prostą obsługą. Nawet początkujący filmowcy będą mogli szybko opanować jej działanie i tworzyć piękne filmy.
-                Dla osób ceniących sobie jakość obrazu: Dzięki dużej matrycy i jasnemu obiektywowi, Panasonic HC-VX1 zapewnia doskonałą jakość obrazu nawet w słabych warunkach oświetleniowych.</p>
+            <h2 class="product-title">Garmin Fenix 7 Sapphire Solar</h2>
+            <p class="product-description">Garmin Fenix 7 Sapphire Solar to niezwykle wytrzymały smartwatch, stworzony dla osób, które cenią sobie aktywny tryb życia. Dzięki zaawansowanym funkcjom treningowym, długiej żywotności baterii i odporności na wszelkie warunki atmosferyczne, jest idealnym towarzyszem każdej przygody. Fenix 7 Sapphire Solar to prawdziwa potęga technologiczna. Oferuje szeroki zakres funkcji, takich jak monitorowanie zdrowia, nawigacja GPS, płatności zbliżeniowe i wiele innych. Solarna bateria zapewnia jeszcze dłuższy czas pracy, dzięki czemu możesz cieszyć się wszystkimi jego możliwościami bez ograniczeń. Garmin Fenix 7 Sapphire Solar to zegarek premium, wykonany z najwyższej jakości materiałów. Solidna konstrukcja i elegancki design sprawiają, że jest nie tylko funkcjonalny, ale także stylowy.</p>
             <p class="product-price">Cena: 1999 PLN</p>
         </div>
         <div class="product-actions">
             <a href="#">Dodaj do koszyka</a>
-            <a href="index.html">Powrót do sklepu</a>
+            <a href="../strona.php">Powrót do sklepu</a>
         </div>
         <ul>
-            <li><strong>Rozdzielczość 4K:</strong> Nagrywanie filmów w ultra wysokiej rozdzielczości dla niesamowitej jakości obrazu.</li>
-            <li><strong>Stabilizacja obrazu:</strong> Płynne nagrania nawet podczas ruchu.</li>
-            <li><strong>Szeroki zakres dynamiczny:</strong> Doskonałe odwzorowanie szczegółów zarówno w jasnych, jak i ciemnych obszarach obrazu.</li>
-            <li><strong>Obiektyw o dużej przysłonie:</strong> Wysoka jakość obrazu nawet w słabym oświetleniu.</li>
-            <li><strong>Zwolnione tempo:</strong> Możliwość nagrywania filmów w zwolnionym tempie dla efektownych ujęć.</li>
-            <li><strong>Ekran dotykowy:</strong> Intuicyjna obsługa i podgląd nagrań.</li>
-            <li><strong>Złącza:</strong> HDMI, USB, microSD.</li>
-            <li><strong>Akcesoria w zestawie:</strong> Bateria, ładowarka, pokrowiec.</li>
+            <li><strong>Monitorowanie aktywności:</strong> Liczenie kroków, spalonych kalorii, dystansu.</li>
+            <li><strong>Pomiar tętna:</strong> Ciągłe monitorowanie tętna na nadgarstku.</li>
+            <li><strong>GPS</strong> Precyzyjne śledzenie trasy podczas biegania, jazdy na rowerze itp.</li>
+            <li><strong>Pływanie:</strong> Monitorowanie stylu pływania, dystansu i liczby basenów.</li>
+            <li><strong>Trening siłowy:</strong> Automatyczne rozpoznawanie ćwiczeń i liczbę powtórzeń.</li>
+            <li><strong>Powiadomienia:</strong> Otrzymywanie powiadomień z telefonu (SMS, połączenia, powiadomienia z aplikacji).</li>
+            <li><strong>Płatności zbliżeniowe: </strong>(jeśli model posiada) Bezkontaktowe płatności za pomocą zegarka.</li>
+            <li><strong>Monitorowanie snu:</strong> Analiza jakości snu i fazy snu.</li>
+            <li><strong>Odporność:</strong> Wysoka odporność na wodę, wstrząsy i zarysowania.</li>
+            <li><strong>Autonomia:</strong> Długi czas pracy na baterii.</li>
         </ul>
     </div>
 

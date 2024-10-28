@@ -1,9 +1,12 @@
+<?php
+    include 'antibot.php'
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelt - Jakub & Jakub shop</title>
+    <title>Fotel - Jakub & Jakub shop</title>
     <link rel="icon" href="../assets/icon.jpg" type="image/jpg">
     <style>
         body {
@@ -90,25 +93,27 @@
     </header>
 
     <div class="product-page">
-        <img src="../assets/images (1).jpg" alt="Smartfon" class="product-image">
+        <img src="../assets/fotele.jpg" alt="Smartfon" class="product-image">
         <div class="product-details">
-            <h2 class="product-title">Tabelet Lenovo M10</h2>
-            <p class="product-description">Dla całej rodziny: Lenovo M10 to wszechstronny tablet, idealny do domowej rozrywki. Dzięki dużemu, czytelnemu ekranowi, przystępnej cenie i szerokiej gamie aplikacji, zapewni rozrywkę zarówno dorosłym, jak i najmłodszym. Do nauki i pracy: Lenovo M10 to również praktyczne narzędzie do nauki i pracy. Możesz na nim wygodnie przeglądać dokumenty, czytać książki elektroniczne i wykonywać podstawowe zadania. Kompaktowy i przenośny: Dzięki niewielkim wymiarom i lekkiej konstrukcji, Lenovo M10 z łatwością zmieści się w każdej torbie. Możesz zabrać go ze sobą wszędzie i cieszyć się ulubionymi treściami w dowolnym miejscu.</p>
+            <h2 class="product-title">Krzesło gamingowe Diablo CHAIRS X-Horn</h2>
+            <p class="product-description">Dla miłośników komfortu i stylu: Diablo X-Horn to nie tylko fotel, to tron dla graczy. Został zaprojektowany z myślą o długich sesjach przed komputerem, zapewniając maksymalny komfort dzięki ergonomicznej konstrukcji i wysokiej jakości materiałów.
+                Dla osób szukających wytrzymałego sprzętu: X-Horn to prawdziwa bestia, gotowa na intensywne użytkowanie. Solidna rama i trwałe materiały gwarantują, że posłuży przez wiele lat.
+                Dla tych, którzy cenią sobie indywidualizm: Dzięki szerokiej gamie kolorów i materiałów, możesz spersonalizować swoje krzesło i stworzyć unikalną przestrzeń do grania.</p>
             <p class="product-price">Cena: 1999 PLN</p>
         </div>
         <div class="product-actions">
             <a href="#">Dodaj do koszyka</a>
-            <a href="index.html">Powrót do sklepu</a>
+            <a href="../strona.php">Powrót do sklepu</a>
         </div>
         <ul>
-            <li><strong>Ekran:</strong> Wysokiej jakości wyświetlacz o żywych kolorach.</li>
-            <li><strong>Procesor:</strong> Wydajny procesor zapewniający płynną pracę.</li>
-            <li><strong>Pamięć:</strong> Duża pamięć wewnętrzna i możliwość rozszerzenia za pomocą karty microSD.</li>
-            <li><strong>Aparat:</strong> Zaawansowany aparat do robienia wysokiej jakości zdjęć i nagrywania filmów.</li>
-            <li><strong>Bateria:</strong> Długa żywotność baterii, umożliwiająca długie godziny pracy bez konieczności ładowania.</li>
-            <li><strong>System operacyjny:</strong> Najnowsza wersja systemu Android.</li>
-            <li><strong>Połączenia:</strong> Wi-Fi, Bluetooth, GPS.</li>
-            <li><strong>Dodatkowe funkcje:</strong> Asystent głosowy, tryb czytania, tryb ciemny.</li>
+            <li><strong>Ergonomia:</strong> Dopasowany kształt zapewniający komfort podczas długich sesji gamingowych.</li>
+            <li><strong>Tapicerka:</strong> Wysokiej jakości materiały zapewniające trwałość i łatwe czyszczenie.</li>
+            <li><strong>Regulacja:</strong> Możliwość regulacji wysokości, kąta nachylenia oparcia i podłokietników.</li>
+            <li><strong>Poduszka lędźwiowa:</strong> Dodatkowe wsparcie dla kręgosłupa.</li>
+            <li><strong>Poduszka pod głowę:</strong> Zapewnia komfort podczas długich sesji.</li>
+            <li><strong>Podstawa:</strong> Solidna podstawa zapewniająca stabilność.</li>
+            <li><strong>Design:</strong> Stylowy design pasujący do każdego gamingowego setupu.</li>
+            <li><strong>Dodatkowe funkcje:</strong> (np. podświetlenie LED, funkcja bujania).</li>
         </ul>
     </div>
 

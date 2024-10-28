@@ -1,9 +1,12 @@
+<?php
+    include 'antibot.php'
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Klawiatura - Jakub & Jakub shop</title>
+    <title>Mysz - Jakub & Jakub shop</title>
     <link rel="icon" href="../assets/icon.jpg" type="image/jpg">
     <style>
         body {
@@ -90,25 +93,27 @@
     </header>
 
     <div class="product-page">
-        <img src="../assets/klawiatura.jpg" alt="Smartfon" class="product-image">
+        <img src="../assets/Mysz.jpg" alt="Smartfon" class="product-image">
         <div class="product-details">
-            <h2 class="product-title">Klawaitura mechaniczna Logitech G915</h2>
-            <p class="product-description">Opis klawiatury mechanicznej Logitech G915
-                Logitech G915 to klawiatura mechaniczna, która łączy w sobie elegancki design z zaawansowanymi technologiami. Wykonana z wysokiej jakości materiałów, wyróżnia się niezwykle smukłą konstrukcją i niskim profilem klawiszy. Dzięki technologii bezprzewodowej LIGHTSPEED oraz podświetleniu LIGHTSYNC RGB, zapewnia płynne działanie i personalizację. Przełączniki mechaniczne ROMER-G gwarantują precyzyjne i szybkie reakcje, co czyni ją idealnym wyborem zarówno dla graczy, jak i osób pracujących wymagających narzędzia najwyższej klasy.</p>
+            <h2 class="product-title">Mysz gamingowa Bloody A70</h2>
+            <p class="product-description">Dla zapalonych graczy: Bloody A70 to niezwykle precyzyjna mysz gamingowa, stworzona dla najbardziej wymagających graczy. Dzięki zaawansowanym technologiom i ergonomicznemu kształtowi zapewnia niesamowitą precyzję i komfort podczas długich sesji gamingowych.
+                Dla osób szukających wydajności: A70 to prawdziwa bestia wśród myszy gamingowych. Wyposażona w zaawansowany sensor optyczny i programowalne przyciski, gwarantuje błyskawiczną reakcję na każde Twoje polecenie.
+                Dla fanów personalizacji: A70 to więcej niż tylko mysz – to narzędzie, które możesz dostosować do swoich indywidualnych preferencji. Dzięki oprogramowaniu możesz skonfigurować podświetlenie RGB, makra i profile, aby stworzyć idealne narzędzie do gry.</p>
             <p class="product-price">Cena: 1999 PLN</p>
         </div>
         <div class="product-actions">
             <a href="#">Dodaj do koszyka</a>
-            <a href="index.html">Powrót do sklepu</a>
+            <a href="../strona.php">Powrót do sklepu</a>
         </div>
         <ul>
-            <li><strong>Przełączniki mechaniczne:</strong> Zapewniają wyjątkową responsywność i satysfakcjonujące kliknięcie.</li>
+            <li><strong>Sensor:</strong> Wysokiej jakości sensor optyczny zapewniający precyzję i szybkość.</li>
+            <li><strong>Przełączniki:</strong> Wytrzymałe przełączniki o długiej żywotności.</li>
             <li><strong>Podświetlenie RGB:</strong> Personalizacja podświetlenia z wieloma efektami.</li>
-            <li><strong>Solidna konstrukcja:</strong> Wytrzymała obudowa zapewniająca długą żywotność.</li>
-            <li><strong>Ergonomia:</strong> Wygodny układ klawiszy i podpórki pod nadgarstki.</li>
-            <li><strong>Funkcje multimedialne:</strong> Dedykowane przyciski do kontroli multimediów.</li>
-            <li><strong>Oprogramowanie:</strong> Zaawansowane oprogramowanie do konfiguracji klawiatury.</li>
-            <li><strong>N-key rollover:</strong> Rejestrowanie wielu jednocześnie wciśniętych klawiszy.</li>
+            <li><strong>Profilowanie:</strong> Możliwość zapisania wielu profili z różnymi ustawieniami.</li>
+            <li><strong>Oprogramowanie:</strong> Zaawansowane oprogramowanie do konfiguracji myszy.</li>
+            <li><strong>Ergonomia:</strong> Wygodny kształt dopasowany do dłoni.</li>
+            <li><strong>Dodatkowe przyciski:</strong> Programowalne przyciski boczne dla lepszej kontroli w grze.</li>
+            <li><strong>Kabel:</strong> Pleciony kabel zapewniający trwałość.</li>
         </ul>
     </div>
 

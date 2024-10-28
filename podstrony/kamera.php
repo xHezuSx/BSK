@@ -1,9 +1,12 @@
+<?php
+    include 'antibot.php'
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mysz - Jakub & Jakub shop</title>
+    <title>Kamera - Jakub & Jakub shop</title>
     <link rel="icon" href="../assets/icon.jpg" type="image/jpg">
     <style>
         body {
@@ -90,27 +93,27 @@
     </header>
 
     <div class="product-page">
-        <img src="../assets/Mysz.jpg" alt="Smartfon" class="product-image">
+        <img src="../assets/x1.jpg" alt="Smartfon" class="product-image">
         <div class="product-details">
-            <h2 class="product-title">Mysz gamingowa Bloody A70</h2>
-            <p class="product-description">Dla zapalonych graczy: Bloody A70 to niezwykle precyzyjna mysz gamingowa, stworzona dla najbardziej wymagających graczy. Dzięki zaawansowanym technologiom i ergonomicznemu kształtowi zapewnia niesamowitą precyzję i komfort podczas długich sesji gamingowych.
-                Dla osób szukających wydajności: A70 to prawdziwa bestia wśród myszy gamingowych. Wyposażona w zaawansowany sensor optyczny i programowalne przyciski, gwarantuje błyskawiczną reakcję na każde Twoje polecenie.
-                Dla fanów personalizacji: A70 to więcej niż tylko mysz – to narzędzie, które możesz dostosować do swoich indywidualnych preferencji. Dzięki oprogramowaniu możesz skonfigurować podświetlenie RGB, makra i profile, aby stworzyć idealne narzędzie do gry.</p>
+            <h2 class="product-title">Kamera cyfrowa Panasonic HC-VX1</h2>
+            <p class="product-description">Dla miłośników filmowania: Panasonic HC-VX1 to wszechstronna kamera, która pozwala uchwycić każdy moment w najwyższej jakości 4K. Dzięki zaawansowanym funkcjom, takim jak stabilizacja obrazu czy tryb slow motion, stworzysz profesjonalnie wyglądające filmy.
+                Dla osób szukających łatwej w obsłudze kamery: HC-VX1 to kamera, która łączy zaawansowane funkcje z prostą obsługą. Nawet początkujący filmowcy będą mogli szybko opanować jej działanie i tworzyć piękne filmy.
+                Dla osób ceniących sobie jakość obrazu: Dzięki dużej matrycy i jasnemu obiektywowi, Panasonic HC-VX1 zapewnia doskonałą jakość obrazu nawet w słabych warunkach oświetleniowych.</p>
             <p class="product-price">Cena: 1999 PLN</p>
         </div>
         <div class="product-actions">
             <a href="#">Dodaj do koszyka</a>
-            <a href="index.html">Powrót do sklepu</a>
+            <a href="../strona.php">Powrót do sklepu</a>
         </div>
         <ul>
-            <li><strong>Sensor:</strong> Wysokiej jakości sensor optyczny zapewniający precyzję i szybkość.</li>
-            <li><strong>Przełączniki:</strong> Wytrzymałe przełączniki o długiej żywotności.</li>
-            <li><strong>Podświetlenie RGB:</strong> Personalizacja podświetlenia z wieloma efektami.</li>
-            <li><strong>Profilowanie:</strong> Możliwość zapisania wielu profili z różnymi ustawieniami.</li>
-            <li><strong>Oprogramowanie:</strong> Zaawansowane oprogramowanie do konfiguracji myszy.</li>
-            <li><strong>Ergonomia:</strong> Wygodny kształt dopasowany do dłoni.</li>
-            <li><strong>Dodatkowe przyciski:</strong> Programowalne przyciski boczne dla lepszej kontroli w grze.</li>
-            <li><strong>Kabel:</strong> Pleciony kabel zapewniający trwałość.</li>
+            <li><strong>Rozdzielczość 4K:</strong> Nagrywanie filmów w ultra wysokiej rozdzielczości dla niesamowitej jakości obrazu.</li>
+            <li><strong>Stabilizacja obrazu:</strong> Płynne nagrania nawet podczas ruchu.</li>
+            <li><strong>Szeroki zakres dynamiczny:</strong> Doskonałe odwzorowanie szczegółów zarówno w jasnych, jak i ciemnych obszarach obrazu.</li>
+            <li><strong>Obiektyw o dużej przysłonie:</strong> Wysoka jakość obrazu nawet w słabym oświetleniu.</li>
+            <li><strong>Zwolnione tempo:</strong> Możliwość nagrywania filmów w zwolnionym tempie dla efektownych ujęć.</li>
+            <li><strong>Ekran dotykowy:</strong> Intuicyjna obsługa i podgląd nagrań.</li>
+            <li><strong>Złącza:</strong> HDMI, USB, microSD.</li>
+            <li><strong>Akcesoria w zestawie:</strong> Bateria, ładowarka, pokrowiec.</li>
         </ul>
     </div>
 
@@ -118,5 +121,5 @@
         &copy; Jakub Sobczyński, Jakub Żakowski BSK 2024
     </footer>
 
-</body>
+    </body>
 </html>

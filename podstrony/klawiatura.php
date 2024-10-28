@@ -1,9 +1,12 @@
+<?php
+    include 'antibot.php'
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laptop - Jakub & Jakub shop</title>
+    <title>Klawiatura - Jakub & Jakub shop</title>
     <link rel="icon" href="../assets/icon.jpg" type="image/jpg">
     <style>
         body {
@@ -90,28 +93,25 @@
     </header>
 
     <div class="product-page">
-        <img src="../assets/laptop-do-4000-zlotych-microsoft-surface-laptop-go-3.jpg" alt="Smartfon" class="product-image">
+        <img src="../assets/klawiatura.jpg" alt="Smartfon" class="product-image">
         <div class="product-details">
-            <h2 class="product-title">Laptop 15 Pro</h2>
-            <p class="product-description">Laptop 15 Pro to wszechstronny laptop, idealny zarówno do pracy, jak i rozrywki. Wyposażony w [procesor], [karta graficzna] i [pamięć RAM], zapewnia płynną pracę nawet przy wielu otwartych aplikacjach. Matryca [rozdzielczość] gwarantuje żywe kolory i ostry obraz, a [pojemność dysku] zapewnia wystarczająco dużo miejsca na wszystkie Twoje pliki. Lekka konstrukcja i długi czas pracy na baterii sprawiają, że możesz zabrać go wszędzie ze sobą.</p>
+            <h2 class="product-title">Klawaitura mechaniczna Logitech G915</h2>
+            <p class="product-description">Opis klawiatury mechanicznej Logitech G915
+                Logitech G915 to klawiatura mechaniczna, która łączy w sobie elegancki design z zaawansowanymi technologiami. Wykonana z wysokiej jakości materiałów, wyróżnia się niezwykle smukłą konstrukcją i niskim profilem klawiszy. Dzięki technologii bezprzewodowej LIGHTSPEED oraz podświetleniu LIGHTSYNC RGB, zapewnia płynne działanie i personalizację. Przełączniki mechaniczne ROMER-G gwarantują precyzyjne i szybkie reakcje, co czyni ją idealnym wyborem zarówno dla graczy, jak i osób pracujących wymagających narzędzia najwyższej klasy.</p>
             <p class="product-price">Cena: 1999 PLN</p>
         </div>
         <div class="product-actions">
             <a href="#">Dodaj do koszyka</a>
-            <a href="index.html">Powrót do sklepu</a>
+            <a href="../strona.php">Powrót do sklepu</a>
         </div>
         <ul>
-            <li><strong>Procesor:</strong> Intel Core i7 12700H</li>
-            <li><strong>Karta graficzna:</strong> NVIDIA GeForce RTX 3060</li>
-            <li><strong>Ekran:</strong> 15.6", QHD (2560x1440), 165 Hz, IPS</li>
-            <li><strong>Pamięć RAM:</strong> 16 GB DDR5</li>
-            <li><strong>Pamięć masowa:</strong> 1 TB SSD NVMe PCIe Gen4</li>
-            <li><strong>System operacyjny:</strong> Windows 11 Pro</li>
-            <li><strong>Bateria:</strong> 90 Wh</li>
-            <li><strong>Porty:</strong> Thunderbolt 4 (x2), USB-A 3.2 Gen 2 (x2), HDMI 2.1, jack 3.5 mm, czytnik kart SD</li>
-            <li><strong>Połączenia bezprzewodowe:</strong> Wi-Fi 6E, Bluetooth 5.2</li>
-            <li><strong>Wymiary:</strong> 355 x 250 x 18 mm</li>
-            <li><strong>Waga:</strong> 2 kg</li>
+            <li><strong>Przełączniki mechaniczne:</strong> Zapewniają wyjątkową responsywność i satysfakcjonujące kliknięcie.</li>
+            <li><strong>Podświetlenie RGB:</strong> Personalizacja podświetlenia z wieloma efektami.</li>
+            <li><strong>Solidna konstrukcja:</strong> Wytrzymała obudowa zapewniająca długą żywotność.</li>
+            <li><strong>Ergonomia:</strong> Wygodny układ klawiszy i podpórki pod nadgarstki.</li>
+            <li><strong>Funkcje multimedialne:</strong> Dedykowane przyciski do kontroli multimediów.</li>
+            <li><strong>Oprogramowanie:</strong> Zaawansowane oprogramowanie do konfiguracji klawiatury.</li>
+            <li><strong>N-key rollover:</strong> Rejestrowanie wielu jednocześnie wciśniętych klawiszy.</li>
         </ul>
     </div>
 
