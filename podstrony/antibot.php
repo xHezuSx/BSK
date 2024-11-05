@@ -1,6 +1,19 @@
 <?php
 session_start();
 
+$time = date('Y-m-d H:i:s');
+$ip = $_SERVER['REMOTE_ADDR'];
+$method = $_SERVER['REQUEST_METHOD'];
+$url = $_SERVER['REQUEST_URI'];
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+
+$logData = "$time | $ip | $method | $url | $userAgent\n";
+
+$logFile = '../logs.txt';
+$file = fopen($logFile, 'a');
+fwrite($file, $logData);
+fclose($file);
+
 // Ustawienia limitu requestów
 $max_requests_per_second = 2; // Maksymalna liczba requestów na sekundę
 $block_duration = 10; // Czas blokady w sekundach (np. 60 sekund)
